@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">And_k_t_s</string>
+    <string name="pushBtn">go!</string>
+    <string name="msg">Hi! Reddit is waiting!</string>
 </resources>

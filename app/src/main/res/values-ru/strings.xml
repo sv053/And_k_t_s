@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">задание1_КТС_Шемякина</string>
+    <string name="pushBtn">погнали!</string>
+    <string name="msg">Привет! Реддит ждёт!</string>
+</resources>
