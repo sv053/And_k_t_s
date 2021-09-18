@@ -34,7 +34,7 @@
             android:background="@drawable/btn_style"
             android:text="@string/pushBtn"
             android:textSize="22sp"
-            android:textColor="@color/lightblue"
+            android:textColor="@color/btntextcolor"
             android:paddingRight="10dp"
             android:paddingLeft="10dp"/>
 
