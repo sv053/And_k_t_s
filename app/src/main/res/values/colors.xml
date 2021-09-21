@@ -9,4 +9,6 @@
     <color name="lightblue">#B4EDFB</color>
     <color name="mainbkg">#FF03DAC5</color>
     <color name="btntextcolor">#FFFFFFFF</color>
+    <color name="lightgray">#E8EBEB</color>
+    <color name="incorrect_value">#F44336</color>
 </resources>
