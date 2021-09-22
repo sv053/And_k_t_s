@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/onboarding">
+
+    <fragment
+        android:id="@+id/onboarding"
+        android:name="com.sv053.reddit.BoardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" >
+        <action
+            android:id="@+id/action_onboarding_to_boardingFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_onboarding_to_loginFragment2"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.sv053.reddit.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_afterLoginFragment"
+            app:destination="@id/afterLoginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/afterLoginFragment"
+        android:name="com.sv053.reddit.AfterLoginFragment"
+        android:label="fragment_after_login"
+        tools:layout="@layout/fragment_after_login" />
+    <fragment
+        android:id="@+id/boardingFragment"
+        android:name="com.sv053.reddit.BoardingFragment"
+        android:label="BoardingFragment" >
+        <action
+            android:id="@+id/action_boardingFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+</navigation>
