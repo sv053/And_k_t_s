@@ -7,6 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="lightblue">#B4EDFB</color>
-    <color name="mainbkg">#FF03DAC5</color>
-    <color name="btntextcolor">#FFFFFFFF</color>
+    <color name="mainbkg">#B4EDFB</color>
+    <color name="btntextcolor">#B4EDFB</color>
+
 </resources>
